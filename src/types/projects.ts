@@ -7,6 +7,7 @@ interface Projects {
   techs: JSX.Element[];
   repo?: string | string[];
   demo?: string;
+  detail: string;
 }
 
 export default Projects;

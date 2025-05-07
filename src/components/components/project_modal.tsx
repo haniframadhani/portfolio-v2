@@ -12,6 +12,8 @@ import { ArrowUpRight, XIcon } from "lucide-react";
 import Projects from "@/types/projects";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 interface ProjectModalProps {
   isOpen: boolean;
@@ -93,6 +95,9 @@ const ProjectModal = ({ isOpen, onClose, project }: ProjectModalProps) => {
                   ))
                 ))}
             </div>
+          </div>
+          <div className="prose prose-invert !max-w-none">
+            <Markdown>{project.detail}</Markdown>
           </div>
         </div>
       </DialogContent>
