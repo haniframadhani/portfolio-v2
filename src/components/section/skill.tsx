@@ -9,10 +9,12 @@ import Mongodb from "@/assets/icon/mongodb";
 import Mysql from "@/assets/icon/mysql";
 import Nextjs from "@/assets/icon/nextjs";
 import Nodejs from "@/assets/icon/nodejs";
+import Nuxtjs from "@/assets/icon/nuxtjs";
 import Php from "@/assets/icon/php";
 import React from "@/assets/icon/react";
 import Tailwindcss from "@/assets/icon/tailwind";
 import Typescript from "@/assets/icon/typescript";
+import Vue from "@/assets/icon/vue";
 
 const Skill = () => {
   return (
@@ -37,6 +39,8 @@ const Skill = () => {
           <Bootstrap className="w-15 md:w-25 h-15 md:h-25" />
           <Tailwindcss className="w-15 md:w-25 h-15 md:h-25" />
           <Figma className="w-15 md:w-25 h-15 md:h-25" />
+          <Vue className="w-15 md:w-25 h-15 md:h-25" />
+          <Nuxtjs className="w-15 md:w-25 h-15 md:h-25" />
         </div>
       </div>
     </section>
