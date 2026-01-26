@@ -34,7 +34,7 @@ const projects: Projects[] = [
       <Typescript key="typescript" className="w-10 h-10" />,
       <Tailwindcss key="tailwindcss" className="w-10 h-10" />,
     ],
-    demo: "https://soto-cipto-roso.vercel.app/",
+    demo: "https://www.sotociptoroso.com/",
     detail: `Soto Cipto Roso is a static, high-impact landing page created to support partnership and investment opportunities for a traditional Soto Semarang restaurant business. Built using Next.js, Tailwind CSS, and shadcn/ui, this project delivers a simple, clean, and modern design focused on building trust and credibility with potential investors and business partners.
 
 Key features:
